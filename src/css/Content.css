@@ -1,0 +1,40 @@
+#content{
+  
+    font-family: "McLaren", cursive;
+    min-width: 0;
+    width: 100%;
+    min-height: 100%;
+    
+}
+.pagination-btn{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    list-style: none;
+    justify-content: center;
+    position: relative;
+    bottom: .5rem;
+    margin-bottom: 10px;
+    padding-top: 1.5rem;
+}
+.pagination-btn a{
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid #f5ba13 ;
+    color:#f5ba13 ;
+    cursor: pointer;
+    text-decoration: none;
+}
+.pagination-btn a:hover{
+    background-color:#f5ba13 ;
+    color: white!important;
+}
+.pagination-active a{
+    background-color:#f5ba13 ;
+    color: white!important;
+}
+.containerrr{
+    position: relative;
+    display: inline-block;
+}

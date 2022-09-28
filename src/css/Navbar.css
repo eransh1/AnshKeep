@@ -1,0 +1,13 @@
+.navbar{
+    background-color: #f5ba13;
+    
+    height: 5rem;
+    display: flex;
+    align-items: center;
+}
+.brand{
+    font-family: "McLaren", cursive;
+    margin-left: 5rem;
+    color: white;
+    font-weight: 400;
+}
